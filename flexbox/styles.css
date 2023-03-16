@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+header {
+    background-color: darkslategray;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    /*background-color: red;*/
+    justify-content: space-between;
+    align-items: center;
+     padding: 10px;
+}
+
+h1{
+    /*background-color: white;*/
+   font-size: 36px;
+}
+
+ul {
+    /*background-color: white;*/
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    font-size: 18px;
+}
+
